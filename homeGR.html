@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stefanos WebPortfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="StefStyle.css">
+	</head>
+	<body class="back" style="background-image: url(mount.jpg)">
+		
+		<div class="flag">
+			<a href="home.html"><img src="usa.gif"></img></a>
+			<a href="homeGR.html"><img src="gre.gif"></img>
+		</div>
+		<div>
+		<h2 class="home">	
+			<a href="homeGR.html">Αρχική</a>
+			<a href="aboutmeGR.html">Βιογραφικό</a>
+			<a href="ContactGR.html">Επικοινωνία</a>
+		</h2>
+		
+		<div class="home_list1"> 
+			<h1 id="home_project" class="home_project">Εργασίες</h1><br>
+		</div>
+		<div class="home_list2" style="right:calc(.10em + 55vw);"> 
+			<h1 id="home_menu" class="home_menu">
+				<a href="RoboticsGR.html">Ρομποτική</a>
+			</h1>
+		</div>
+		<div class="home_list2" style="right:calc(.10em + 35vw);"> 
+			<h1 id="home_menu" class="home_menu">
+				<a href="ComputerEngGR.html">Μηχανικοί<br>Υπολ.</a>
+			</h1>
+		</div>
+		
+		<div class="info"><u><i>Πληροφορίες</i></u></u><br>
+			+35799337864	softwaresaccess1@gmail.com<br>
+			<a href="https://www.facebook.com/profile.php?id=100077348454505"><i>Facebook</i></a> 
+			<a href="https://www.instagram.com/stefanoseleftheriadis2143/"><i>Instagram</i></a>
+		</div>
+		
+		<script>
+			var project=document.getElementById("home_project");
+			
+			project.onclick=function(){
+				document.body.classList.toggle("list-theme");
+			}
+		</script>
+		
+	</body>
+	
+</html>

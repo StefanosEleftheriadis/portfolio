@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stefanos WebPortfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="StefStyle.css">
+	</head>
+	<body style="background-image: url(formbackground.jpg)">
+	
+		<div class="flag">
+			<a href="Contact_old.html"><img src="usa.gif"></img></a>
+			<a href="ContactGR.html"><img src="gre.gif"></img>
+		</div>
+		
+		<ul class="list1">	
+			<a href="homeGR.html"><li>Αρχική</li></a>
+			<li class="dropdown">
+				<span class="buttons">Εργασίες</span>
+					<div class="dropdown-content">
+						<a href="RoboticsGR.html">Ρομποτική</a>
+						<a href="ComputerEngGR.html">Μηχανικός Υπολογιστών</a>
+					</div>
+			</li>
+			<li><a href="aboutmeGR.html">Βιογραφικό</a></li>
+			<a href="ContactGR.html"><li>Επικοινωνία</li></a>
+		</ul>
+		
+		<form action="mailto:softwaresaccess1@gmail.com" method="POST" enctype="text/plain">
+			<div style="text-align:left">
+				Όνομα:<br>
+				<input type="text" name="firstname" size="50" required="required"><br>
+				Επίθετο:<br>
+				<input type="text" name="lastname" size="50" required="required"><br>
+				Μήνυμα:<br>
+				<textarea name="Message" rows="6″ cols="20″ required="required" style="text-align:left"></textarea><br><br> 
+				<input id="Submit" type="submit" value="Αποστολή"><br>
+			</div>
+		</form>
+		
+	</body>
+	
+</html>

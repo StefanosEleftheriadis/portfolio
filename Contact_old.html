@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stefanos WebPortfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="StefStyle.css">
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+	</head>
+	<body style="background-image: url(formbackground.jpg)">
+		<div class="flag">
+			<a href="Contact_old.html"><img src="usa.gif"></img></a>
+			<a href="ContactGR.html"><img src="gre.gif"></img>
+		</div>
+		
+		<ul class="list1">	
+			<li><a href="home.html">Home</a></li>
+			<li class="dropdown">
+				<span class="buttons">Projects</span>
+					<div class="dropdown-content">
+						<a href="Robotics_old.html">Robotics</a>
+						<a href="ComputerEng_old.html">ComputerEng.</a>
+					</div>
+			</li>
+			<li><a href="aboutme.html">AboutMe</a></li>
+			<li><a href="Contact_old.html">Contact</a></li>
+		</ul>
+		
+		<form action="mailto:softwaresaccess1@gmail.com" method="POST" enctype="text/plain">
+			<div style="text-align:left">
+				First name:<br>
+				<input type="text" name="firstname" size="50" required="required"><br>
+				Last name:<br>
+				<input type="text" name="lastname" size="50" required="required"><br>	
+				Message:<br>
+				<textarea name="Message" rows="6″ cols="20″ required="required" style="text-align:left"></textarea><br><br> 
+				<input id="Submit" type="submit" value="Send"><br>
+			</div>
+		</form>
+		
+	</body>
+	
+</html>
